@@ -1,7 +1,7 @@
-# 初めに
+# はじめに
 
-Qiitaを投稿する前にこれを見て自分でレビューしよう！
-Markdownでコピーするとチェックリスト
+記事を投稿する前にこれを見てセルフレビューしよう！
+MarkdownでコピーするとGithubやVScodeでチェックリストが使えて便利です。
 
 # Qiitaレビューリスト
 
@@ -37,7 +37,6 @@ Markdownでコピーするとチェックリスト
 
 - [ ] [LICEcap](https://www.cockos.com/licecap/)でGIFを撮影する
 - [ ] [draw.io](https://app.diagrams.net/)や[Figma](https://figma.com/ja/)で図を書く
-- [ ] 
  
 ### ソースコード
 
@@ -46,7 +45,7 @@ Markdownでコピーするとチェックリスト
 - [ ] ソースコードが長いときなどは`<details><summary>title</summary><div>contents</div></details>`で折りたたむ
 - [ ] ソースコードに記載されているファイル名が正しいのか。(カレントディレクトリを統一する)
 - [ ] terminalの場合は`shell-session:teminal`を付ける(terminalやconsoleもできるが、互換性を考えて、shell-sessionに統一。**プロンプト付けない場合** は`batch`など)
-- [ ] Terminalのプロンプトを`$`に統一。(`%`はシンタックスハイライトがつかない)
+- [x] Terminalのプロンプトを`$`に統一。(`%`はシンタックスハイライトがつかない)
 - [ ] プレーンテキストのシンタックスハイライトは何もつけない。(○ `:hoge.txt`　×　`text:hoge.txt`)
 - [ ] ライブラリ名やツール名を使う際は、HPなどのリンクを追加する。(e.g. [Golang](https://go.dev/))
 - [ ] 上記以外の外部のリンクは基本的にまとめて参考文献へ。(飛んだら戻ってこなくなる可能性がある)
@@ -56,14 +55,3 @@ Markdownでコピーするとチェックリスト
 
 - [ ] [注釈記法](https://qiita.com/nishina555/items/39d88361157545d12a94) を利用する
 - [ ] 注釈記法が面倒な場合は、`[title](url)`で最後にまとめておく
-
-
-
-
-
-
-Markdown 50のルール - Qiitaを守っている。(絶対ではない。ケースバイケース。たとえば、見出しレベル1は複数あってもよい。)
-
-
-
-その他は [Qiitaで良い記事を書く技術参照](https://qiita.com/t12u/items/8c28484100dfd3a6351b#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
